@@ -1,0 +1,52 @@
+/* Apply font-family 'Arial, sans-serif' to the entire body */
+body {
+  font-family: Arial, sans-serif;
+
+  /* Use flexbox to horizontally and vertically center the content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Set the height of the body to occupy the full viewport height */
+  height: 100vh;
+
+  /* Remove default margin to ensure content is centered properly */
+  margin: 0;
+
+  /* Set the background color of the body to #f8f8f8 */
+  background-color: #f8f8f8;
+}
+
+/* Center the content inside the container */
+.container {
+  text-align: center;
+}
+
+/* Style for the 'New Random Cat' button */
+.btn-cat {
+  /* Set the background color to #007bff (blue) */
+  background-color: #007bff;
+
+  /* Set the text color to white (#fff) */
+  color: #fff;
+
+  /* Set the font size to 18 pixels */
+  font-size: 18px;
+
+  /* Add padding of 12 pixels on the top and bottom, and 24 pixels on the left and right */
+  padding: 12px 24px;
+
+  /* Remove the default border */
+  border: none;
+
+  /* Add rounded corners to the button */
+  border-radius: 5px;
+
+  /* Change the cursor to a pointer when hovering over the button */
+  cursor: pointer;
+}
+
+/* Add a top margin of 20 pixels to the image container */
+.image-container {
+  margin-top: 20px;
+}
